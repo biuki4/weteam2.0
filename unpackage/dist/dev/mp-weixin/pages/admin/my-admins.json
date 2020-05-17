@@ -1,0 +1,6 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "k-list": "/components/k-ui/k-user-list/k-list-delete"
+  }
+}

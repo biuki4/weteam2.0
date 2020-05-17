@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "k-activity-item": "/components/k-ui/k-activity/k-activity-item"
+  }
+}

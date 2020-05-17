@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-tag": "/components/uni-ui/uni-tag/uni-tag",
+    "uni-fav": "/components/uni-ui/uni-fav/uni-fav"
+  }
+}

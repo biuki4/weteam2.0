@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "k-tip": "/components/k-ui/k-tip/k-tip"
+  }
+}

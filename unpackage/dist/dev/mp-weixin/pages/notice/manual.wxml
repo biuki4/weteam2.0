@@ -1,0 +1,62 @@
+<view><hx-navbar vue-id="77c9e2d2-1" title="用户手册" color="#ffffff" background-color-linear-deg="45" bind:__l="__l"></hx-navbar><view class="cu-bar bg-white"><view class="action"><text class="cuIcon-title text-blue"></text>普通用户</view></view><view class="margin-top10"><uni-collapse vue-id="77c9e2d2-2" bind:__l="__l" vue-slots="{{['default']}}"><uni-collapse-item vue-id="{{('77c9e2d2-3')+','+('77c9e2d2-2')}}" title="查找比赛" bind:__l="__l" vue-slots="{{['default']}}"><view class="item"><uni-card vue-id="{{('77c9e2d2-4')+','+('77c9e2d2-3')}}" title="查找比赛" thumbnail="http://www.iamk.top/static/icon/weTeamLogo.png" extra="{{version}}" note="{{time}}" bind:__l="__l" vue-slots="{{['default']}}"><text>方法一： 
+							首页中点击左上角的折叠图标，展示左侧边栏，点击想要查看的竞赛类别
+							\n\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/search1.png"></image><text>\n\n
+							方法二: 
+							点击首页顶部中【查找比赛】搜索框进入搜索界面，可以根据分类、发布学院、竞赛级别、时间进行筛选
+							\n\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/search2.png"></image><text>\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/search3.png"></image></uni-card></view></uni-collapse-item><uni-collapse-item vue-id="{{('77c9e2d2-5')+','+('77c9e2d2-2')}}" title="竞赛组队" bind:__l="__l" vue-slots="{{['default']}}"><view class="item"><uni-card vue-id="{{('77c9e2d2-6')+','+('77c9e2d2-5')}}" title="竞赛组队" thumbnail="http://www.iamk.top/static/icon/weTeamLogo.png" extra="{{version}}" note="{{time}}" bind:__l="__l" vue-slots="{{['default']}}"><text>首先：点击想参加的竞赛，点击右下角【立即组队】
+							\n\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/team1.png"></image><text>\n\n
+							接着，选择一支队伍进入队伍详情，点击申请加入。
+							\n\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/team2.png"></image><text>\n\n
+							最后，如果没找到合适的队伍，点击【创建】队伍，等待他人加入。
+							\n\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/team3.png"></image></uni-card></view></uni-collapse-item></uni-collapse></view><view class="cu-bar bg-white margin-top20"><view class="action"><text class="cuIcon-title text-blue"></text>管理员</view></view><view class="margin-top10"><uni-collapse vue-id="77c9e2d2-7" bind:__l="__l" vue-slots="{{['default']}}"><uni-collapse-item vue-id="{{('77c9e2d2-8')+','+('77c9e2d2-7')}}" title="发布竞赛" bind:__l="__l" vue-slots="{{['default']}}"><view class="item"><uni-card vue-id="{{('77c9e2d2-9')+','+('77c9e2d2-8')}}" title="发布竞赛" thumbnail="http://www.iamk.top/static/icon/weTeamLogo.png" extra="{{version}}" note="{{time}}" bind:__l="__l" vue-slots="{{['default']}}"><text>第一步：
+							点击【我的】=> 【发布竞赛】
+							\n\n</text><text>依次完成“基本信息”、“竞赛描述”、“上传附件”、“确认发布”/
+							\n\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/post1.png"></image></uni-card></view></uni-collapse-item><uni-collapse-item vue-id="{{('77c9e2d2-10')+','+('77c9e2d2-7')}}" title="我的发布" bind:__l="__l" vue-slots="{{['default']}}"><view class="item"><uni-card vue-id="{{('77c9e2d2-11')+','+('77c9e2d2-10')}}" title="我的发布" thumbnail="http://www.iamk.top/static/icon/weTeamLogo.png" extra="{{version}}" note="{{time}}" bind:__l="__l" vue-slots="{{['default']}}"><text>点击【我的】=> 【我的发布】，即可对已发布的比赛进行查看及编辑。
+							\n\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/myPost.png"></image></uni-card></view></uni-collapse-item></uni-collapse></view><view class="cu-bar bg-white margin-top20"><view class="action"><text class="cuIcon-title text-blue"></text>其他</view></view><view class="margin-top10"><uni-collapse vue-id="77c9e2d2-12" bind:__l="__l" vue-slots="{{['default']}}"><uni-collapse-item vue-id="{{('77c9e2d2-13')+','+('77c9e2d2-12')}}" title="登录" bind:__l="__l" vue-slots="{{['default']}}"><view class="item"><uni-card vue-id="{{('77c9e2d2-14')+','+('77c9e2d2-13')}}" title="登录" thumbnail="http://www.iamk.top/static/icon/weTeamLogo.png" extra="{{version}}" note="{{time}}" bind:__l="__l" vue-slots="{{['default']}}"><text>方法一：
+							点击【我的】=> 点击提示框【登录】=> 【微信授权登录】
+							\n\n
+							方法二：
+							点击【我的】=> 【未登录】=> 【微信授权登录】
+							\n\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/login1.png"></image><text>\n\n
+							点击【微信授权登录】，选择授权后方可登录。
+							\n\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/login2.png"></image></uni-card></view></uni-collapse-item><uni-collapse-item vue-id="{{('77c9e2d2-15')+','+('77c9e2d2-12')}}" title="修改信息" bind:__l="__l" vue-slots="{{['default']}}"><view class="item"><uni-card vue-id="{{('77c9e2d2-16')+','+('77c9e2d2-15')}}" title="修改信息" thumbnail="http://www.iamk.top/static/icon/weTeamLogo.png" extra="{{version}}" note="{{time}}" bind:__l="__l" vue-slots="{{['default']}}"><text>点击【我的】=>【设置】=>【基本信息】
+							\n\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/set1.png"></image></uni-card></view></uni-collapse-item><uni-collapse-item vue-id="{{('77c9e2d2-17')+','+('77c9e2d2-12')}}" title="查看荣誉" bind:__l="__l" vue-slots="{{['default']}}"><view class="item"><uni-card vue-id="{{('77c9e2d2-18')+','+('77c9e2d2-17')}}" title="查看荣誉" thumbnail="http://www.iamk.top/static/icon/weTeamLogo.png" extra="{{version}}" note="{{time}}" bind:__l="__l" vue-slots="{{['default']}}"><text>方法一：
+							点击【我的】=>【我的荣誉】
+							\n\n
+							方法二：
+							点击【我的】=>【设置】=>【基本信息】=>【我的荣誉】
+							\n\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/award1.png"></image></uni-card></view></uni-collapse-item><uni-collapse-item vue-id="{{('77c9e2d2-19')+','+('77c9e2d2-12')}}" title="添加荣誉" bind:__l="__l" vue-slots="{{['default']}}"><view class="item"><uni-card vue-id="{{('77c9e2d2-20')+','+('77c9e2d2-19')}}" title="添加荣誉" thumbnail="http://www.iamk.top/static/icon/weTeamLogo.png" extra="{{version}}" note="{{time}}" bind:__l="__l" vue-slots="{{['default']}}"><text>方法一：
+							点击【我的】=>【我的荣誉】=> 点击右下角添加按钮
+							\n\n
+							方法二：
+							点击【我的】=>【设置】=>【基本信息】=>【我的荣誉】=> 点击右下角添加按钮 
+							\n\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/award-add2.png"></image></uni-card></view></uni-collapse-item><uni-collapse-item vue-id="{{('77c9e2d2-21')+','+('77c9e2d2-12')}}" title="编辑荣誉" bind:__l="__l" vue-slots="{{['default']}}"><view class="item"><uni-card vue-id="{{('77c9e2d2-22')+','+('77c9e2d2-21')}}" title="编辑荣誉" thumbnail="http://www.iamk.top/static/icon/weTeamLogo.png" extra="{{version}}" note="{{time}}" bind:__l="__l" vue-slots="{{['default']}}"><text>方法一：
+							点击【我的】=>【我的荣誉】=> 点击荣誉列表右上角编辑图标
+							\n\n
+							方法二：
+							点击【我的】=>【设置】=>【基本信息】=>【我的荣誉】=> 点击荣誉列表右上角编辑图标
+							\n\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/award-edit1.png"></image></uni-card></view></uni-collapse-item><uni-collapse-item vue-id="{{('77c9e2d2-23')+','+('77c9e2d2-12')}}" title="查看特长" bind:__l="__l" vue-slots="{{['default']}}"><view class="item"><uni-card vue-id="{{('77c9e2d2-24')+','+('77c9e2d2-23')}}" title="查看特长" thumbnail="http://www.iamk.top/static/icon/weTeamLogo.png" extra="{{version}}" note="{{time}}" bind:__l="__l" vue-slots="{{['default']}}"><text>方法一：
+			    			点击【我的】=>【我的特长】
+			    			\n\n
+			    			方法二：
+			    			点击【我的】=>【设置】=>【基本信息】=>【我的特长】
+			    			\n\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/advantage1.png"></image></uni-card></view></uni-collapse-item><uni-collapse-item vue-id="{{('77c9e2d2-25')+','+('77c9e2d2-12')}}" title="添加特长" bind:__l="__l" vue-slots="{{['default']}}"><view class="item"><uni-card vue-id="{{('77c9e2d2-26')+','+('77c9e2d2-25')}}" title="添加特长" thumbnail="http://www.iamk.top/static/icon/weTeamLogo.png" extra="{{version}}" note="{{time}}" bind:__l="__l" vue-slots="{{['default']}}"><text>方法一：
+							点击【我的】=>【我的特长】=> 点击右下角添加按钮
+							\n\n
+							方法二：
+							点击【我的】=>【设置】=>【基本信息】=>【我的特长】=> 点击右下角添加按钮 
+							\n\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/advantage-add2.png"></image></uni-card></view></uni-collapse-item><uni-collapse-item vue-id="{{('77c9e2d2-27')+','+('77c9e2d2-12')}}" title="编辑特长" bind:__l="__l" vue-slots="{{['default']}}"><view class="item"><uni-card vue-id="{{('77c9e2d2-28')+','+('77c9e2d2-27')}}" title="编辑特长" thumbnail="http://www.iamk.top/static/icon/weTeamLogo.png" extra="{{version}}" note="{{time}}" bind:__l="__l" vue-slots="{{['default']}}"><text>方法一：
+							点击【我的】=>【我的特长】=> 点击特长列表右上角编辑图标
+							\n\n
+							方法二：
+							点击【我的】=>【设置】=>【基本信息】=>【我的特长】=> 点击特长列表右上角编辑图标
+							\n\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/advantage-edit1.png"></image></uni-card></view></uni-collapse-item><uni-collapse-item vue-id="{{('77c9e2d2-29')+','+('77c9e2d2-12')}}" title="查看队伍" bind:__l="__l" vue-slots="{{['default']}}"><view class="item"><uni-card vue-id="{{('77c9e2d2-30')+','+('77c9e2d2-29')}}" title="查看队伍" thumbnail="http://www.iamk.top/static/icon/weTeamLogo.png" extra="{{version}}" note="{{time}}" bind:__l="__l" vue-slots="{{['default']}}"><text>点击【我的】=>【我的队伍】
+							\n
+							可以选择查看创建的队伍及申请参加的队伍
+							\n\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/myTeam.png"></image></uni-card></view></uni-collapse-item><uni-collapse-item vue-id="{{('77c9e2d2-31')+','+('77c9e2d2-12')}}" title="管理队伍" bind:__l="__l" vue-slots="{{['default']}}"><view class="item"><uni-card vue-id="{{('77c9e2d2-32')+','+('77c9e2d2-31')}}" title="管理队伍" thumbnail="http://www.iamk.top/static/icon/weTeamLogo.png" extra="{{version}}" note="{{time}}" bind:__l="__l" vue-slots="{{['default']}}"><text>点击【我的】=>【我的队伍】=>【我的创建】
+							\n
+							点击【我的小队】查看当前队伍中的人
+							点击【申请列表】查看当前申请的人
+							\n\n</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/myTeam2.png"></image><text>\n\n
+							【我的小队】中向左滑动用户列表可以将队伍中的人踢出
+							【申请列表】中向左滑动用户列表可以同意该用户入队或拒绝该申请</text><image style="width:100%;height:1000rpx;" src="http://www.iamk.top/static/manual/myTeam3.png"></image></uni-card></view></uni-collapse-item></uni-collapse></view></view>

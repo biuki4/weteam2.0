@@ -1,0 +1,12 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "min-action-sheet": "/components/min-action-sheet/min-action-sheet",
+    "uni-collapse": "/components/uni-ui/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/components/uni-ui/uni-collapse-item/uni-collapse-item",
+    "k-list": "/components/k-ui/k-team/k-user",
+    "k-poster": "/components/k-ui/k-user-list/k-list",
+    "uni-number-box": "/components/uni-ui/uni-number-box/uni-number-box",
+    "uni-link": "/components/uni-ui/uni-link/uni-link"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "k-detail": "/components/k-ui/k-activity/k-detail"
+  }
+}

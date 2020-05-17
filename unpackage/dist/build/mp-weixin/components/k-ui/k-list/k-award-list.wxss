@@ -1,0 +1,1 @@
+.card-box{background-color:#fff;margin:20rpx}.card-box .card-title{background-color:#fff}.card-box .card-content{padding:40rpx;border-top:1rpx dotted #ccc;color:#787878}

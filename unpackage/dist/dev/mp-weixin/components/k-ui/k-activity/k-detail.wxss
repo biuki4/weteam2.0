@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.cell-hover {
+  background: #f00;
+}
+.game-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.game-container .game-title {
+    font-size: 48rpx;
+    padding-top: 20rpx;
+    background-color: #fff;
+}
+.game-container .game-time {
+    font-size: 24rpx;
+    color: #a6a6a6;
+    padding-top: 10rpx;
+}
+.game-container .game-time text {
+      margin-right: 20rpx;
+}
+.game-container .game-time .game-source {
+      color: #008de1;
+}
+.game-container .game-item-tags {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    margin: 15rpx 0 15rpx 20rpx;
+}
+.game-container .game-image {
+    width: 100%;
+    height: 300rpx;
+    position: relative;
+}
+.game-container .game-image image {
+      width: 100%;
+      height: 100%;
+}
+.game-container .game-image .cover {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+              align-items: center;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      font-size: 50rpx;
+      color: #fff;
+      letter-spacing: 15px;
+}
+.game-container .line {
+    border-top: 1rpx solid #ccc;
+}
+.game-container .time-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    padding: 20rpx;
+    background-color: #fff;
+}
+.game-container .game-detail {
+    margin-top: 20rpx;
+    background-color: #fff;
+}
+.game-container .game-detail .game-detail-topic {
+      font-size: 36rpx;
+      padding: 20rpx 0 0 20rpx;
+}
+.game-container .game-detail .game-detail-context {
+      padding: 30rpx;
+}
+.game-container .game-relative {
+    background-color: #fff;
+    margin-top: 20rpx;
+}
+.game-container .game-relative .game-relative-tit {
+      padding: 20rpx;
+      color: #008de1;
+}
+.game-container .game-relative .game-poster {
+      padding-left: 20rpx;
+}
+.game-container .game-other {
+    margin-top: 20rpx;
+}
+.game-container .game-other .marginBottom100 {
+      margin-bottom: 100rpx;
+}
+.game-container .game-other .game-other-item {
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+              align-items: center;
+      padding: 10rpx 0 10rpx 20rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+              justify-content: space-between;
+      background-color: #fff;
+}
+.game-container .game-other .game-other-item .other-icon {
+        font-size: 40rpx;
+        margin-right: 20rpx;
+}
+.game-container .game-other .game-other-item .other-link {
+        padding: 10rpx;
+}
+.game-container .game-participate {
+    margin-top: 50rpx;
+    text-align: right;
+}
+.game-container .game-participate text:nth-child(2) {
+      margin-left: 40rpx;
+}
+.game-container .game-footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    padding: 15rpx 40rpx 15rpx 20rpx;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    background-color: #fafafa;
+    border: 1rpx solid #ccc;
+}
+.game-container .game-footer .icons text {
+      font-size: 40rpx;
+      margin-left: 30rpx;
+}
+

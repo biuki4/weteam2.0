@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.team {
+  background-color: #fff;
+  padding: 30rpx 30rpx 15rpx 30rpx;
+  position: relative;
+  margin-top: 20rpx;
+}
+.team .full-icon {
+    position: absolute;
+    right: 10rpx;
+    top: 10rpx;
+    width: 120rpx;
+    height: 120rpx;
+}
+.team .full-icon ._img {
+      width: 100%;
+      height: 100%;
+}
+.team .team-head .head-left .left-item-name {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.team .team-head .head-left .left-item {
+    margin-top: 10rpx;
+    color: #616161;
+}
+.team .team-head .head-left .left-item .left-item-tit {
+      color: #55aaff;
+      font-size: 30rpx;
+}
+.team .team-head .head-left .left-item .team-icon {
+      color: #fa436a;
+      font-size: 48rpx;
+      font-weight: 500;
+}
+.team .team-head .head-left .left-item .team-name {
+      font-size: 40rpx;
+      padding-left: 20rpx;
+      color: #000000;
+}
+.team .team-head .head-left .team-brief {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+.team .team-head .head-left .team-brief .brief {
+      font-size: 28rpx;
+}
+.team .team-info {
+    margin-top: 20rpx;
+}
+.team .team-info .team-info-brief {
+      padding: 15rpx;
+      border: 1rpx solid #ccc;
+      border-radius: 10rpx;
+      min-height: 80rpx;
+}
+.team .team-info .team-info-brief text {
+        color: #909090;
+}
+.team .team-foot {
+    margin-top: 20rpx;
+    border-top: 1rpx solid #dedede;
+    padding-top: 20rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+.team .team-foot .team-foot-member-box {
+      width: 75%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+}
+.team .team-foot .team-foot-member-box .team-foot-member {
+        width: 50rpx;
+        height: 50rpx;
+        line-height: 50rpx;
+        border-radius: 50%;
+        margin: 0 10rpx;
+}
+.team .team-foot .team-foot-member-box .team-foot-member image {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+}
+.team .team-foot .team-foot-member-box .team-leader {
+        position: relative;
+        margin-top: 5rpx;
+        -webkit-flex-shrink: 0;
+                flex-shrink: 0;
+}
+.team .team-foot .team-foot-member-box .team-leader .leader-icon {
+          width: 50rpx;
+          height: 50rpx;
+          position: absolute;
+          top: -22rpx;
+          left: -22rpx;
+}
+.team .team-foot .team-foot-member-box .member-box {
+        border-left: 1rpx solid #ccc;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        width: 80%;
+        -webkit-flex-wrap: wrap;
+                flex-wrap: wrap;
+        padding-left: 20rpx;
+        margin-left: 10rpx;
+}
+.team .team-foot .team-foot-member-box .member-box .team-foot-member {
+          margin-top: 5rpx;
+          margin-bottom: 5rpx;
+}
+.team .team-foot .team-foot-member-box .member-box text {
+          color: #909090;
+          margin-top: 15rpx;
+}
+.team .team-foot .op-btn {
+      margin-left: 20rpx;
+}
+.team .applying {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    margin-top: 15rpx;
+    padding-top: 20rpx;
+    font-size: 30rpx;
+    border-top: 1rpx solid #ccc;
+    vertical-align: middle;
+}
+.team .applying .content text {
+      margin-right: 15rpx;
+}
+.team .applying .avatars {
+      width: 50rpx;
+      height: 50rpx;
+      border-radius: 50%;
+}
+.team .applying .avatars image {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+}
+

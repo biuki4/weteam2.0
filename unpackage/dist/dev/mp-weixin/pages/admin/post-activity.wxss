@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page {
+  background-color: #f7f7f7;
+}
+.border {
+  height: 10rpx;
+  width: 100%;
+}
+.title {
+  width: 180rpx;
+}
+.post-box1 {
+  margin-top: 20rpx;
+}
+.post-box1 .way-box {
+    background-color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    height: 88rpx;
+    line-height: 88rpx;
+    padding-left: 20rpx;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+}
+.post-box1 .way-box .way-tit {
+      color: #3e3e3e;
+      font-size: 28rpx;
+}
+.post-box1 .way-box .way-radios {
+      margin-left: 50rpx;
+      position: absolute;
+      right: 20rpx;
+}
+.post-box1 .way-box .way-radios van-radio-group {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+}
+.post-box1 .way-box .way-radios van-radio-group van-radio {
+          margin-right: 30rpx;
+}
+.post-box1 .way-box .members {
+      position: absolute;
+      right: 20rpx;
+}
+.post-box1 .time-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+}
+.post-box1 .time-box .timeSelect {
+      background-color: #fff;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+              flex-direction: row;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      height: 88rpx;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+              align-items: center;
+      -webkit-justify-content: space-around;
+              justify-content: space-around;
+      color: #3e3e3e;
+      font-size: 28rpx;
+}
+.post-box1 .time-box .timeSelect .tit::before {
+        content: '*';
+        color: #f00;
+}
+.post-box2 {
+  position: relative;
+}
+.post-box3 {
+  margin-top: 20rpx;
+}
+.post-box3 .box3-uploadPic-box {
+    background-color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    padding: 0 20rpx;
+}
+.post-box3 .box3-uploadPic-box .uploadPic-tit {
+      font-size: 30rpx;
+}
+.post-box3 .box3-uploadPic-box .box3-uploadPic {
+      margin-top: 15rpx;
+}
+.post-box3 .preview-picture {
+    width: 100%;
+    height: 250rpx;
+}
+.post-box3 .preview-picture ._img,
+    .post-box3 .preview-picture image {
+      width: 100%;
+      height: 100%;
+}
+.post-tip {
+  font-size: 30rpx;
+  color: #686868;
+}
+.foot {
+  margin-top: 30rpx;
+  color: #6f6f6f;
+  width: 100%;
+}
+.foot .foot-option {
+    height: 88rpx;
+    line-height: 88rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 20rpx;
+    padding: 0 20rpx;
+    position: relative;
+}
+.foot .foot-option van-button {
+      margin-left: 30rpx;
+}
+.foot .foot-option .option-item text {
+      font-size: 36rpx;
+}
+.foot .foot-option .option-item .iconfont {
+      color: #008de1;
+      font-weight: 900;
+      font-size: 40rpx;
+}
+.foot .foot-option .item-return {
+      position: absolute;
+      left: 20rpx;
+}
+.foot .foot-option .item-next {
+      position: absolute;
+      right: 20rpx;
+}
+.foot .op-group button {
+    margin-bottom: 15rpx;
+}
+

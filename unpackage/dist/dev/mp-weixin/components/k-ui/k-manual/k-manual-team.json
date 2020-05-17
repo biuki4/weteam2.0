@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "drag-button": "/components/other/drag-button/drag-button",
+    "uni-collapse": "/components/uni-ui/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/components/uni-ui/uni-collapse-item/uni-collapse-item",
+    "uni-card": "/components/uni-ui/uni-card/uni-card"
+  }
+}

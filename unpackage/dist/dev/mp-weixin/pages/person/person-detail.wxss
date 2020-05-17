@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page {
+  background-color: #f7f7f7;
+}
+.container {
+  margin-top: 40rpx;
+}
+.container .card-box {
+    background-color: #fff;
+    padding: 20rpx;
+}
+.container .card-box .card-head {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+              align-items: center;
+}
+.container .card-box .card-head .head-avatar {
+        width: 130rpx;
+        height: 130rpx;
+        border-radius: 50%;
+        -webkit-flex-shrink: 0;
+                flex-shrink: 0;
+        position: relative;
+}
+.container .card-box .card-head .head-avatar ._img {
+          width: 100%;
+          height: 100%;
+}
+.container .card-box .card-head .head-avatar .gender-icon {
+          position: absolute;
+          top: 0;
+          right: 0;
+}
+.container .card-box .card-head .head-info {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+                flex-direction: column;
+        padding-left: 30rpx;
+}
+.container .card-box .card-head .head-info .info-name {
+          font-size: 40rpx;
+}
+.container .card-box .card-head .head-info .info-sig {
+          font-size: 24rpx;
+          margin-top: 15rpx;
+          color: #818181;
+}
+.container .card-box .card-head .head-info .info-icon {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          margin-top: 10rpx;
+}
+.container .card-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    background-color: #fff;
+    border: 1rpx solid #f0f0f0;
+    padding: 20rpx;
+    color: #848484;
+}
+.container .card-nav .nav-item {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+              flex-direction: column;
+      width: 50%;
+      text-align: center;
+}
+.container .card-nav .nav-item .item-num {
+        color: #242424;
+}
+.container .card-nav .nav-item .item-tit {
+        font-size: 24rpx;
+}
+.container .card-nav .division {
+      color: #d9d9d9;
+}
+.container .history-section {
+    padding: 30rpx 0 0;
+    margin-top: 20rpx;
+    background: #fff;
+    border-radius: 10rpx;
+}
+

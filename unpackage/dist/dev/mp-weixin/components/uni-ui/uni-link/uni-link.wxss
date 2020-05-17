@@ -1,0 +1,9 @@
+
+.link-box {
+	padding: 20rpx;
+}
+.uni-link--withline {
+	text-decoration: underline;
+	word-break:break-all;
+}
+

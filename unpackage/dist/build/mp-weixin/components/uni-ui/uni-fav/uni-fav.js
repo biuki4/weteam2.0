@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/uni-ui/uni-fav/uni-fav"],{"09dd":function(e,t,n){"use strict";n.r(t);var o=n("b675"),u=n.n(o);for(var c in o)"default"!==c&&function(e){n.d(t,e,(function(){return o[e]}))}(c);t["default"]=u.a},"264f":function(e,t,n){"use strict";n.r(t);var o=n("38d3"),u=n("09dd");for(var c in u)"default"!==c&&function(e){n.d(t,e,(function(){return u[e]}))}(c);n("431d");var r,i=n("f0c5"),a=Object(i["a"])(u["default"],o["b"],o["c"],!1,null,"40dfa552",null,!1,o["a"],r);t["default"]=a.exports},"38d3":function(e,t,n){"use strict";var o,u=function(){var e=this,t=e.$createElement;e._self._c},c=[];n.d(t,"b",(function(){return u})),n.d(t,"c",(function(){return c})),n.d(t,"a",(function(){return o}))},"431d":function(e,t,n){"use strict";var o=n("9eae"),u=n.n(o);u.a},"9eae":function(e,t,n){},b675:function(e,t,n){"use strict";(function(e){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var o=function(){Promise.all([n.e("common/vendor"),n.e("components/uni-ui/uni-icons/uni-icons")]).then(function(){return resolve(n("855f"))}.bind(null,n)).catch(n.oe)},u={name:"UniFav",components:{uniIcons:o},props:{star:{type:[Boolean,String],default:!0},bgColor:{type:String,default:"#eeeeee"},fgColor:{type:String,default:"#666666"},bgColorChecked:{type:String,default:"#007aff"},fgColorChecked:{type:String,default:"#FFFFFF"},circle:{type:[Boolean,String],default:!1},checked:{type:Boolean,default:!1},contentText:{type:Object,default:function(){return{contentDefault:"收藏",contentFav:"已收藏"}}}},watch:{checked:function(){e.report&&(this.checked?e.report("收藏","收藏"):e.report("取消收藏","取消收藏"))}},methods:{onClick:function(){this.$emit("click")}}};t.default=u}).call(this,n("543d")["default"])}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/uni-ui/uni-fav/uni-fav-create-component',
+    {
+        'components/uni-ui/uni-fav/uni-fav-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("264f"))
+        })
+    },
+    [['components/uni-ui/uni-fav/uni-fav-create-component']]
+]);

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-fav": "/components/uni-ui/uni-fav/uni-fav"
+  }
+}

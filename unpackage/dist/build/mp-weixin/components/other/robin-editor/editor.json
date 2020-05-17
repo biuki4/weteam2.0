@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "color-picker": "/components/colorPicker",
+    "uni-popup": "/components/uni-ui/uni-popup/uni-popup"
+  }
+}

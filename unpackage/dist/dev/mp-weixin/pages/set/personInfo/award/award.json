@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "k-award-list": "/components/k-ui/k-list/k-award-list"
+  }
+}

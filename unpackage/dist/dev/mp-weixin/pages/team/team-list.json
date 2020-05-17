@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "k-team": "/components/k-ui/k-team/k-team",
+    "uni-number-box": "/components/uni-ui/uni-number-box/uni-number-box",
+    "k-manual-team": "/components/k-ui/k-manual/k-manual-team"
+  }
+}

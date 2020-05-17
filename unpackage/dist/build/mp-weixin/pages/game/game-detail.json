@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "WeTeam",
+  "navigationBarBackgroundColor": "#008de1",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "k-game-detail": "/components/k-ui/k-game-detail/k-game-detail"
+  }
+}

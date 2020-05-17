@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "竞赛发布",
+  "navigationBarBackgroundColor": "#008de1",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "van-uploader": "/wxcomponents/vant-weapp/uploader/index",
+    "van-radio": "/wxcomponents/vant-weapp/radio/index",
+    "van-radio-group": "/wxcomponents/vant-weapp/radio-group/index",
+    "van-popup": "/wxcomponents/vant-weapp/popup/index",
+    "van-picker": "/wxcomponents/vant-weapp/picker/index",
+    "my-editor": "/components/other/robin-editor/editor",
+    "uni-swipe-action": "/components/uni-ui/uni-swipe-action/uni-swipe-action",
+    "uni-swipe-action-item": "/components/uni-ui/uni-swipe-action-item/uni-swipe-action-item",
+    "dynamic-tags": "/components/other/dynamic-tags/dynamic-tags",
+    "k-game-detail": "/components/k-ui/k-game-detail/k-game-detail",
+    "uni-number-box": "/components/uni-ui/uni-number-box/uni-number-box"
+  }
+}

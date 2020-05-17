@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "WeTeam",
+  "navigationBarBackgroundColor": "#008de1",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "van-sidebar": "/wxcomponents/vant-weapp/sidebar/index",
+    "van-sidebar-item": "/wxcomponents/vant-weapp/sidebar-item/index",
+    "game-item2": "/components/k-ui/k-game-list/k-game-item",
+    "uni-notice-bar": "/components/uni-ui/uni-notice-bar/uni-notice-bar",
+    "uni-drawer": "/components/uni-ui/uni-drawer/uni-drawer",
+    "back-top": "/components/other/back-top/back-top",
+    "uni-load-more": "/components/uni-ui/uni-load-more/uni-load-more",
+    "k-more-btn": "/components/k-ui/k-more-btn/k-more-btn"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "game-item": "/components/k-ui/k-game-list/k-game-attention"
+  }
+}

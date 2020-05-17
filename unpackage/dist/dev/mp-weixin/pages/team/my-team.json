@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "k-my-team": "/components/k-ui/k-team/k-myTeam"
+  }
+}

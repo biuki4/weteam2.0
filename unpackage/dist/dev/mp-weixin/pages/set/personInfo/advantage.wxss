@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.add-icon {
+  position: fixed;
+  right: 50rpx;
+  bottom: 50rpx;
+  font-size: 80rpx;
+  color: #fff;
+  background-image: -webkit-linear-gradient(left, #4facfe 0%, #00f2fe 100%);
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  width: 90rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-radius: 50%;
+  text-align: center;
+}
+

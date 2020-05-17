@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#008de1",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "list-cell": "/components/mix-list-cell",
+    "uni-tag": "/components/uni-ui/uni-tag/uni-tag"
+  }
+}

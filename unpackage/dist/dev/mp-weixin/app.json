@@ -1,0 +1,83 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/set/set",
+    "pages/notice/notice",
+    "pages/game/game-detail",
+    "pages/user/participate",
+    "pages/public/login",
+    "pages/public/register",
+    "pages/public/forget",
+    "pages/person/person-detail",
+    "pages/admin/my-admins",
+    "pages/set/personInfo/advantage",
+    "pages/set/personInfo/award/award",
+    "pages/set/personInfo/award/addAward",
+    "pages/index/game-list/game-list",
+    "pages/set/about",
+    "pages/person/user-list/attention-list",
+    "pages/person/user-list/fan-list",
+    "pages/user/attention/game-attention",
+    "pages/admin/my-post",
+    "pages/team/team-list",
+    "pages/team/my-team",
+    "pages/person/contact",
+    "pages/team/my-team-detail",
+    "pages/notice/manual",
+    "pages/index/search",
+    "pages/activity/search",
+    "pages/user/log",
+    "pages/admin/post-game",
+    "pages/admin/post-activity",
+    "pages/set/personInfo/personInfo",
+    "pages/team/apply-user",
+    "pages/user/want",
+    "components/k-ui/k-manual/k-manual-team",
+    "pages/activity/activity",
+    "pages/activity/detail",
+    "pages/user/attention/attention-kind",
+    "pages/user/attention/activity-attention",
+    "pages/admin/post-kind"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "WeTeam",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#008de1",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/icon/game.png",
+        "selectedIconPath": "/static/icon/game-current.png",
+        "text": "赛事"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "iconPath": "/static/icon/activity.png",
+        "selectedIconPath": "/static/icon/activity-current.png",
+        "text": "活动"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "/static/icon/tab-my.png",
+        "selectedIconPath": "/static/icon/tab-my-current.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-tab": "/wxcomponents/vant-weapp/tab/index",
+    "van-tabs": "/wxcomponents/vant-weapp/tabs/index",
+    "k-empty": "/components/k-ui/k-empty/k-empty",
+    "hx-navbar": "/components/k-ui/k-navbar/k-navbar"
+  }
+}

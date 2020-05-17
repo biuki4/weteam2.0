@@ -1,0 +1,1 @@
+<view><view><k-list vue-id="cd43d5ce-1" users="{{datas}}" ids="{{ids}}" navBarName="{{userInfo.user.id==id?'我的关注':'TA的关注'}}" data-event-opts="{{[['^follow',[['follow']]]]}}" bind:follow="__e" bind:__l="__l"></k-list></view></view>

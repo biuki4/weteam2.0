@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "修改个人信息",
+  "navigationBarBackgroundColor": "#008de1",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "van-popup": "/wxcomponents/vant-weapp/popup/index",
+    "van-picker": "/wxcomponents/vant-weapp/picker/index"
+  }
+}

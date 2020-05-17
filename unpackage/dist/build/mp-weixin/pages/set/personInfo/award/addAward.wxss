@@ -1,0 +1,2 @@
+.box3-uploadPic-box{background-color:#fff;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;align-items:center;padding:0 20rpx}.box3-uploadPic-box .uploadPic-tit{font-size:30rpx}.box3-uploadPic-box .box3-uploadPic{margin-top:15rpx}.preview-picture{width:100%;height:250rpx}.preview-picture ._img,
+  .preview-picture image{width:100%;height:100%}

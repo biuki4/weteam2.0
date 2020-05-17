@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-tag": "/components/uni-ui/uni-tag/uni-tag",
+    "k-list": "/components/k-ui/k-user-list/k-list",
+    "uni-link": "/components/uni-ui/uni-link/uni-link"
+  }
+}

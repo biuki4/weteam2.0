@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "k-activity-item": "/components/k-ui/k-activity/k-activity-item",
+    "uni-load-more": "/components/uni-ui/uni-load-more/uni-load-more",
+    "sl-filter": "/components/other/sl-filter/sl-filter",
+    "uni-notice-bar": "/components/uni-ui/uni-notice-bar/uni-notice-bar",
+    "k-more-btn": "/components/k-ui/k-more-btn/k-more-btn"
+  }
+}

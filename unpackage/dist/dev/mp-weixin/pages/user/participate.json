@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的参与",
+  "navigationBarBackgroundColor": "#008de1",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "game-item": "/components/k-ui/k-game-list/k-game-participate"
+  }
+}

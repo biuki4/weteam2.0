@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "k-advantage": "/components/k-ui/k-list/k-advantage"
+  }
+}
